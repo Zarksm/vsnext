@@ -1,4 +1,4 @@
-import { Navbar } from "@/components"
+import { Footer, Navbar } from "@/components"
 
 export default function Sholawat({
   children,
@@ -8,7 +8,8 @@ export default function Sholawat({
   return (
     <section>
       <Navbar/>
-      {children}
+        {children}
+      <Footer/>
     </section>
   )
 }

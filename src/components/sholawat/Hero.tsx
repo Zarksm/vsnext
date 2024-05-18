@@ -6,7 +6,7 @@ function Hero() {
     <>
     <div className='w-full h-full flex justify-center'>
       {/* <Slider/> */}
-      tess
+      <Slider/>
     </div>
     </>
   )

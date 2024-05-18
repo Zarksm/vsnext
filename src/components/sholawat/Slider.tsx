@@ -7,7 +7,7 @@ import 'swiper/css/autoplay';
 import SliderCard from './SliderCard';
 import { SliderHero } from '@/lib/constant';
 
-export default () => {
+const Slider =  () => {
   return (
     <Swiper
       spaceBetween={50}
@@ -28,3 +28,5 @@ export default () => {
     </Swiper>
   );
 };
+ 
+export default Slider

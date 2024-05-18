@@ -8,7 +8,9 @@ export default function Sholawat({
   return (
     <section>
       <Navbar/>
-        {children}
+        <div className="min-h-screen">
+          {children}
+        </div>
       <Footer/>
     </section>
   )

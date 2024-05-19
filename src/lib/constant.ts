@@ -1,7 +1,7 @@
 export const Navlink = [
     {
       name: "Sholawat",
-      link: "/sholawat"
+      link: "/"
     },
     {
       name: "Quran",
